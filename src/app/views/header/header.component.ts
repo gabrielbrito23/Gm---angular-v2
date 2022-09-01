@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from "jquery";
 
 @Component({
   selector: 'app-header',
@@ -15,16 +16,14 @@ export class HeaderComponent implements OnInit {
 }
 $(document).ready(function(){
 
+  // $("#barras").click(function(e){
+  //     $("#menu").toggleClass("#menu-ativo")
   $("#barras").click(function(){
-      $("#menu").toggleClass("#menu-ativo")
-  // $("#barras").click(function(){
-  //     if($("#menu").hasClass("#menu-ativo")){
-  //         $("#menu").removeClass("#menu-ativo")
-  //     }else{
-  //         $("#menu").addclass("menu-ativo")
-  //     }
+      if($("#menu").hasClass("#menu-ativo")){
+          $("#menu").removeClass("#menu-ativo")
+      }else{
+          $("#menu").addClass("menu-ativo")
+      }
 
-  // })
-  
-})
+  })
 })

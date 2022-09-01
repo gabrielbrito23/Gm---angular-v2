@@ -5,16 +5,16 @@
         <form #UserForm="ngForm"(ngSubmit)="onSubmit()">
             <div class="formulario">
                 <label><b>E-Mail</b></label>
-                <input type="email" id="email"name="email" required [(ngModel)] = "userModel.email">
+                <input type="email" id="email"name="email" [(ngModel)] = "userModel.email" required >
             </div>
 
             <div class="formulario">
                 <label><b>Senha</b></label>
-                <input type="password" id="senha" name="senha" required [(ngModel)] = "userModel.senha">
+                <input type="password" id="senha" name="senha" [(ngModel)] = "userModel.senha" required>
             </div>
 
-            <button type="submit">Login</button>
-            <p class="text">Já possui conta?<a routerlink="#"> Registrar-se!</a></p>
+            <button class="sub" type="submit">Login</button>
+            <p class="text">Já possui conta?<a href="#"> Registrar-se!</a></p>
         </form>
     </div>
 </section> 

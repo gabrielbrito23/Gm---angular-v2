@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+.logo{
+    height: 20vh;
+    width: 15vw;
+}
+
 header{
     height: 100%;
     width: 100%;
@@ -95,8 +100,8 @@ header{
 }
           
 .logo{
-    height: 10vh;
-    width: 35vw;
+    height: 15vh;
+    width: 30vw;
 }
           
 .menu{
@@ -142,7 +147,7 @@ header{
           
 .logo{
     height: 10vh;
-    width: 35vw;
+    width: 25vw;
 }
           
 .menu{
@@ -170,7 +175,7 @@ header{
 }
 
 }
-@media screen and (max-width:000px){
+@media screen and (max-width:001px){
 
 header{
     height: 100%;
@@ -188,7 +193,7 @@ header{
       
 .logo{
     height: 10vh;
-    width: 35vw;
+    width: 25vw;
 }
       
 .menu{
